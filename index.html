@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd Even Hand Game</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="index.js"></script>
+</head>
+<body>
+
+    <h1 class="titleText">ODD EVEN HAND GAME</h1>
+
+    <div class="score">
+        <h2 style="font-family: cursive; text-align: center;" id="scoreLine"> Score: 0  Balls: 0</h2>
+    </div>
+
+    <div class="mainWindow">
+
+        <div class="batsman childWindow">
+
+            <div class="image">
+                <img src="images/start.png" class="fingerImage" style="float: left;" id="myImage" alt="Starting Image" srcset="">
+            </div>
+
+            <div class="inputScore">
+                <button class="button" id="btn1" onClick="reply_click(this.id)">1</button>
+                <button class="button" id="btn2" onClick="reply_click(this.id)">2</button>
+                <button class="button" id="btn3" onClick="reply_click(this.id)">3</button>
+                <button class="button" id="btn4" onClick="reply_click(this.id)">4</button>
+                <button class="button" id="btn5" onClick="reply_click(this.id)">5</button>
+            </div>
+
+            <h2 style="font-family: cursive; text-align: center;" id="userFinalScore"> Your Final Score: Haven't batted yet. </h2>
+
+        </div>
+
+        <div class="bowler childWindow">
+            
+            <div class="image">
+                <img src="images/start.png" class="fingerImage" style="float: right;" id="compImage" alt="Starting Image" srcset="">
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <h2 style="font-family: cursive; text-align: center;" id="compFinalScore"> Computer's Final Score: Haven't batted yet. </h2>
+
+        </div>
+
+
+    </div>
+
+    <div class="gameStatus">
+        <h2 style="font-family: cursive; text-align: center;" id="decision"> Game in progress. </h2>
+    </div>
+    
+</body>
+</html>
