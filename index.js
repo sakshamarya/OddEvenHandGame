@@ -86,7 +86,7 @@ function reply_click(clicked_id)
             }
 
             else{
-                document.getElementById("decision").innerHTML="You lost, Better luck next time!";
+                document.getElementById("decision").innerHTML="You lose, Better luck next time!";
                 document.getElementById("decision").style.backgroundColor="red";
             }
 
@@ -114,7 +114,7 @@ function reply_click(clicked_id)
             document.getElementById("compFinalScore").innerHTML="Computer's Final Score: "+score2;
             document.getElementById("compFinalScore").style.color = "red";
 
-            document.getElementById("decision").innerHTML="You lost, Better luck next time!";
+            document.getElementById("decision").innerHTML="You lose, Better luck next time!";
             document.getElementById("decision").style.backgroundColor="red";
             flag=2;
         }
