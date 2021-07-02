@@ -25,7 +25,7 @@ function reply_click(clicked_id)
         x.src = "images/"+clicked_id[3]+".jpg";
     }
 
-    var randno=Math.floor(Math.random() * 4)+1;
+    var randno=Math.floor(Math.random() * 5)+1;
     document.getElementById("compImage").src = "images/"+randno+".jpg";
 
     if(clicked_id[3]==randno)
